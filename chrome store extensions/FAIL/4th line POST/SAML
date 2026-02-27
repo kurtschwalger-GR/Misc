@@ -1,0 +1,59 @@
+<samlp:Response  xmlns:samlp="urn:oasis:names:tc:SAML:2.0:protocol"
+                                  ID="_2a8e58bfceb0d2485ef1"
+                                  Version="2.0"
+                                  IssueInstant="2026-02-27T16:49:49.009Z"
+                                  Destination="https://horizon.uberit.net/SAML/sso"
+                                 >
+        <saml:Issuer  xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion">https://login.sdo.uberit.net/saml/bc98eb7c-b578-469e-ba3e-b0126a1d7cfd</saml:Issuer>
+        <samlp:Status>
+                <samlp:StatusCode  Value="urn:oasis:names:tc:SAML:2.0:status:Success" />
+        </samlp:Status>
+        <saml:Assertion  xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion"
+                                          Version="2.0"
+                                          ID="_Qv0FSTSZ5dQYxiI5iPIdtCfK7uno3bP1"
+                                          IssueInstant="2026-02-27T16:49:49.004Z"
+                                         >
+                <saml:Issuer>https://login.sdo.uberit.net/saml/bc98eb7c-b578-469e-ba3e-b0126a1d7cfd</saml:Issuer>
+                <Signature  xmlns="http://www.w3.org/2000/09/xmldsig#">
+                        <SignedInfo>
+                                <CanonicalizationMethod  Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+                                <SignatureMethod  Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" />
+                                <Reference  URI="#_Qv0FSTSZ5dQYxiI5iPIdtCfK7uno3bP1">
+                                        <Transforms>
+                                                <Transform  Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+                                                <Transform  Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+                                        </Transforms>
+                                        <DigestMethod  Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+                                        <DigestValue>D4v/XzE0NNYmvRSbSs1w2bETaxNfJ1BZFSWBI2YZtvw=</DigestValue>
+                                </Reference>
+                        </SignedInfo>
+                        <SignatureValue>sCc7F0BtYdctIYKphVJ5sGawurt6jVYT9FM0QnbwOn2/RpDtpTaTwn9PbRg6NI3m4wk7zxhYz/9oCGQfUbJCvMJG9L9qfp52sEPuN5YtH0c9rpzL1UQFrIZzLvlVZbkRngGY+PPf89+P95U3plbBc52F0sqeQjTeKa1ru9SKRvNZ6qyscLcZz4+2lHZHQn8+dDLU6paYNTmcWs5QGsbK+8o9BZCbIgDcEZq+PcdKNQf+OLQafcVvm4clf7kRbpLVapVWzvjMt1CXgzYMTEwna7pKSEoc8FoOixV9xSVGHAESkWlYkQOheaZBazaerYTYfwVVs/OL7ihwCmixpz5wgQ==</SignatureValue>
+                        <KeyInfo>
+                                <X509Data>
+                                        <X509Certificate>MIIDGTCCAgGgAwIBAgIUNz6CYF8dC/8d5nuigY+pi85sfgowDQYJKoZIhvcNAQELBQAwHDEaMBgGA1UEAwwRZG91Ymxlb2N0b3B1cy5jb20wHhcNMjUwNDMwMTEwODAxWhcNMzUwNDI4MTEwODAxWjAcMRowGAYDVQQDDBFkb3VibGVvY3RvcHVzLmNvbTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAL4v5kVR1bcPxHRTI94bKZul60Bd9V2HUS5xqjbYsoBmLmCPstfC8vGt5pchgulw9wafdytkE+sFg8ne/fcJRAE2IEYun5NtPBp9CabLFz0YtMQFUlAZIAKnUKjije0zRoGyRRgxoPVAa8ppJqR1j0eo/2kFsGQlRcFdLbTvPi7S2P+2vC/GgMBb5myV2AUh/+b+m+q14VdaZY50CKp/3qX4d9fzXIbGRjoynciZJ9mLi3XfJul1gdcyEDIfZX/QodTjXsrK+ECjDcHc/3er39IGa+MLbhX8BwWc/yakTVoYoQd6Uj0bLzEXp7JRwtztjulZI8uxgYQ3k/TXxLLKhpMCAwEAAaNTMFEwHQYDVR0OBBYEFAkennA/lxhASHKv/4pyK1vfdnwBMB8GA1UdIwQYMBaAFAkennA/lxhASHKv/4pyK1vfdnwBMA8GA1UdEwEB/wQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAEyp6bgPe5fjrT46E5FNy6htk1qvhsuv1+hMGi21BL1CRKimqZ053/4wPK2p6WQCB5jr6bwe2oesMxp2AH9FIqIFII5dxYdpk3L2yW5z/hl+JuNMwe8jZwZuBz8P1mlMojBTZayDII4+SERYtkrdbuxTen09vdauh54HOxmqWB5DX4KhdBuDFYKXNiosaN02YRkd0/CVPsE5HCd+icSijI9YJU2gl0U1scfW7V03ByjJ1dzX2xaGV/Pw2uobv+XZ/cbIcwFrMpM73Gt7esZgjWe89VTLSPea7T2GvnbjJ5SsGduqL0gRgtj3/sgMSEk+QZe4fzopn21R2YGANjVxjA4=</X509Certificate>
+                                </X509Data>
+                        </KeyInfo>
+                </Signature>
+                <saml:Subject>
+                        <saml:NameID  Format="urn:oasis:names:tc:SAML:2.0:nameid-format:persistent">kurts@uberit.net</saml:NameID>
+                        <saml:SubjectConfirmation  Method="urn:oasis:names:tc:SAML:2.0:cm:bearer">
+                                <saml:SubjectConfirmationData  NotOnOrAfter="2026-02-27T17:49:49.004Z"
+                                                                                              Recipient="https://horizon.uberit.net/SAML/sso"
+                                                                                             />
+                        </saml:SubjectConfirmation>
+                </saml:Subject>
+                <saml:Conditions  NotBefore="2026-02-27T16:49:49.004Z"
+                                                    NotOnOrAfter="2026-02-27T17:49:49.004Z"
+                                                   />
+                <saml:AuthnStatement  AuthnInstant="2026-02-27T16:49:49.004Z"
+                                                            SessionIndex="c7a8d44c-f4df-40df-91c1-869cac1225a5"
+                                                           >
+                        <saml:AuthnContext>
+                                <saml:AuthnContextClassRef>urn:oasis:names:tc:SAML:2.0:ac:classes:unspecified</saml:AuthnContextClassRef>
+                        </saml:AuthnContext>
+                </saml:AuthnStatement>
+                <saml:AttributeStatement  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                                                                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                                                                   />
+        </saml:Assertion>
+</samlp:Response>

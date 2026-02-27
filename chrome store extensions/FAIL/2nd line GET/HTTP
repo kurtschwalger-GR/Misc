@@ -1,11 +1,11 @@
 General
-Request URL:	https://login.sdo.uberit.net/?saml=cf4689fa-c164-4b63-97e1-a5148c804c49
+Request URL:	https://login.sdo.uberit.net/?saml=fbea7123-8668-4cd8-b866-8de0a01bed92
 Request Method:	GET
 Status Code:	HTTP/1.1 200 OK
 
 Response Headers
 Server:	nginx
-Date:	Fri, 27 Feb 2026 16:21:50 GMT
+Date:	Fri, 27 Feb 2026 16:49:36 GMT
 Content-Type:	text/html
 Last-Modified:	Sun, 22 Feb 2026 09:06:31 GMT
 Transfer-Encoding:	chunked
@@ -31,7 +31,7 @@ Sec-Fetch-Dest:	document
 sec-ch-ua:	"Not:A-Brand";v="99", "Google Chrome";v="145", "Chromium";v="145"
 sec-ch-ua-mobile:	?0
 sec-ch-ua-platform:	"Windows"
-Referer:	https://elvhrzncs1.uberit.net/
+Referer:	https://elvhrzncs3.uberit.net/
 Accept-Encoding:	gzip, deflate, br, zstd
 Accept-Language:	en-GB,en-US;q=0.9,en;q=0.8
 Cookie:	tid=e59c6d2c-a524-4f79-80aa-b8e256a31d66
