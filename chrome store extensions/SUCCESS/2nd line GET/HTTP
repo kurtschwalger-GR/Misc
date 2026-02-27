@@ -1,0 +1,37 @@
+General
+Request URL:	https://login.sdo.uberit.net/?saml=e48ad519-0fd4-40e0-b1e1-6d9e62763db6
+Request Method:	GET
+Status Code:	HTTP/1.1 200 OK
+
+Response Headers
+Server:	nginx
+Date:	Fri, 27 Feb 2026 16:38:04 GMT
+Content-Type:	text/html
+Last-Modified:	Sun, 22 Feb 2026 09:06:31 GMT
+Transfer-Encoding:	chunked
+Connection:	keep-alive
+ETag:	W/"699ac717-216"
+Strict-Transport-Security:	max-age=63072000; includeSubdomains; preload
+X-Frame-Options:	SAMEORIGIN
+X-Content-Type-Options:	nosniff
+X-XSS-Protection:	0
+X-SDO-Server-Name:	elvsdoauth5
+Content-Security-Policy:	default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; style-src 'self' 'unsafe-inline'; img-src 'self' data:
+Referrer-Policy:	origin
+Permissions-Policy:	geolocation=(),midi=(),microphone=(),camera=(),magnetometer=(),gyroscope=(),fullscreen=(self),payment=()
+Content-Encoding:	gzip
+
+Request Headers
+Upgrade-Insecure-Requests:	1
+User-Agent:	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
+Accept:	text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site:	same-site
+Sec-Fetch-Mode:	navigate
+Sec-Fetch-Dest:	document
+sec-ch-ua:	"Not:A-Brand";v="99", "Google Chrome";v="145", "Chromium";v="145"
+sec-ch-ua-mobile:	?0
+sec-ch-ua-platform:	"Windows"
+Referer:	https://elvhrzncs1.uberit.net/
+Accept-Encoding:	gzip, deflate, br, zstd
+Accept-Language:	en-GB,en-US;q=0.9,en;q=0.8
+Cookie:	tid=e59c6d2c-a524-4f79-80aa-b8e256a31d66

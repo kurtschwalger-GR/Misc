@@ -1,0 +1,21 @@
+General
+Request URL:	https://login.sdo.uberit.net/saml/bc98eb7c-b578-469e-ba3e-b0126a1d7cfd/userpass?request=cf4689fa-c164-4b63-97e1-a5148c804c49
+Request Method:	POST
+
+Response Headers
+
+Request Headers
+sec-ch-ua-platform:	"Windows"
+User-Agent:	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
+Accept:	application/json, text/plain, */*
+sec-ch-ua:	"Not:A-Brand";v="99", "Google Chrome";v="145", "Chromium";v="145"
+Content-Type:	application/json
+sec-ch-ua-mobile:	?0
+Origin:	https://login.sdo.uberit.net
+Sec-Fetch-Site:	same-origin
+Sec-Fetch-Mode:	cors
+Sec-Fetch-Dest:	empty
+Referer:	https://login.sdo.uberit.net/
+Accept-Encoding:	gzip, deflate, br, zstd
+Accept-Language:	en-GB,en-US;q=0.9,en;q=0.8
+Cookie:	tid=e59c6d2c-a524-4f79-80aa-b8e256a31d66

@@ -1,0 +1,10 @@
+AuthnRequest
+AssertionConsumerServiceURL:	https://elvhrzncs1.uberit.net:443/SAML/sso
+Destination:	https://login.sdo.uberit.net/saml/bc98eb7c-b578-469e-ba3e-b0126a1d7cfd/login
+ForceAuthn:	false
+ID:	_c13b8ce18fb5349e95ebb1e5812a012d
+IssueInstant:	2026-02-27T16:21:50.556Z
+ProtocolBinding:	urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST
+ProviderName:	https://elvhrzncs1.uberit.net/SAML/metadata/sp.xml
+Version:	2.0
+Issuer:	https://elvhrzncs1.uberit.net/SAML/metadata/sp.xml

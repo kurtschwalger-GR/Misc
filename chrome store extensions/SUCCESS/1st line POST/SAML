@@ -1,0 +1,30 @@
+<saml2p:AuthnRequest  xmlns:saml2p="urn:oasis:names:tc:SAML:2.0:protocol"
+                                            AssertionConsumerServiceURL="https://elvhrzncs1.uberit.net:443/SAML/sso"
+                                            Destination="https://login.sdo.uberit.net/saml/bc98eb7c-b578-469e-ba3e-b0126a1d7cfd/login"
+                                            ForceAuthn="false"
+                                            ID="_e3a7faad911ed4ee6644574b622aebd4"
+                                            IssueInstant="2026-02-27T16:38:04.787Z"
+                                            ProtocolBinding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"
+                                            ProviderName="https://elvhrzncs1.uberit.net/SAML/metadata/sp.xml"
+                                            Version="2.0"
+                                           >
+        <saml2:Issuer  xmlns:saml2="urn:oasis:names:tc:SAML:2.0:assertion">https://elvhrzncs1.uberit.net/SAML/metadata/sp.xml</saml2:Issuer>
+        <ds:Signature  xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                <ds:SignedInfo>
+                        <ds:CanonicalizationMethod  Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+                        <ds:SignatureMethod  Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" />
+                        <ds:Reference  URI="#_e3a7faad911ed4ee6644574b622aebd4">
+                                <ds:Transforms>
+                                        <ds:Transform  Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+                                        <ds:Transform  Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+                                </ds:Transforms>
+                                <ds:DigestMethod  Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+                                <ds:DigestValue>DalkD5q4ij6hgUubvU2JIoY0vu4PF3tjS9QOhSg2XCk=</ds:DigestValue>
+                        </ds:Reference>
+                </ds:SignedInfo>
+                <ds:SignatureValue> mcDz7UbDZ0Mkhsk30KXUs2NYPoE6pvD9b7bURnvlnJfsrF71FYZ/urOK8xp/LBmV27B7ZtiRHtm3 NszOlbEBq6X+FwcU484B4KrxPxpVw5fDykBGl8EjB5vMhe8P5R+KNnCIp2XTmPgx7B1H06CgGwKD TwBL+R0aYAW6dhe3fRhThs44fvhDuRHve3sXfQWtuGYNfF+9j/+SUSqvpwBo5e714JQDkZDjHKM+ BwotBCPTOBVMQd6mFIbh88Fr1/F532m0RYTlbR3yklnSDm5+Gxy0gYjxmnP53AsEXarT6lMWh8Qh uToMNfOUIpoB6zUCPWGki2Dhx/ajDH/7t/O/8A== </ds:SignatureValue>
+        </ds:Signature>
+        <saml2p:NameIDPolicy  AllowCreate="true"
+                                                    Format="urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified"
+                                                   />
+</saml2p:AuthnRequest>

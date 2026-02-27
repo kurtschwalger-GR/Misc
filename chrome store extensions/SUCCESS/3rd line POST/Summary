@@ -1,0 +1,17 @@
+SAML2.0 Response
+Destination:	https://horizon.uberit.net/SAML/sso
+ID:	_85e5e215607294a1abba
+Version:	2.0
+IssueInstant:	2026-02-27T16:38:10.251Z
+Issuer:	https://login.sdo.uberit.net/saml/bc98eb7c-b578-469e-ba3e-b0126a1d7cfd
+
+SAML 2.0 Assertion
+ID:	_E1J6fJkkcHrJOYkc1vFZCj6aGReycKcd
+Version:	2.0
+IssueInstant:	2026-02-27T16:38:10.246Z
+Subject:	kurts@uberit.net
+
+SAML 2.0 AttributeStatement
+
+Embedded certificates
+Certificate 0:	Download

@@ -1,0 +1,65 @@
+<samlp:Response  xmlns:samlp="urn:oasis:names:tc:SAML:2.0:protocol"
+                                  ID="_85e5e215607294a1abba"
+                                  InResponseTo="_e3a7faad911ed4ee6644574b622aebd4"
+                                  Version="2.0"
+                                  IssueInstant="2026-02-27T16:38:10.251Z"
+                                  Destination="https://horizon.uberit.net/SAML/sso"
+                                 >
+        <saml:Issuer  xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion">https://login.sdo.uberit.net/saml/bc98eb7c-b578-469e-ba3e-b0126a1d7cfd</saml:Issuer>
+        <samlp:Status>
+                <samlp:StatusCode  Value="urn:oasis:names:tc:SAML:2.0:status:Success" />
+        </samlp:Status>
+        <saml:Assertion  xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion"
+                                          Version="2.0"
+                                          ID="_E1J6fJkkcHrJOYkc1vFZCj6aGReycKcd"
+                                          IssueInstant="2026-02-27T16:38:10.246Z"
+                                         >
+                <saml:Issuer>https://login.sdo.uberit.net/saml/bc98eb7c-b578-469e-ba3e-b0126a1d7cfd</saml:Issuer>
+                <Signature  xmlns="http://www.w3.org/2000/09/xmldsig#">
+                        <SignedInfo>
+                                <CanonicalizationMethod  Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+                                <SignatureMethod  Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" />
+                                <Reference  URI="#_E1J6fJkkcHrJOYkc1vFZCj6aGReycKcd">
+                                        <Transforms>
+                                                <Transform  Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+                                                <Transform  Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+                                        </Transforms>
+                                        <DigestMethod  Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+                                        <DigestValue>K3jufPgWbeI/A74UzZ1LU6uWoEkaHY7+8M7wDib+nTs=</DigestValue>
+                                </Reference>
+                        </SignedInfo>
+                        <SignatureValue>Ybwmgs7KNZVRL+i5rPVEOPXwgUvqEjBKLISMYkt3KFY6VrqAB6Pjo7GnBQxZVxp1isv99pA6sSbYQFvsyHswZwCsJ+i5mOLbz6NqkE/3k9nX+34cRr9bRQutK1r8tHUsna8Ga2XahkRRFGfL2yp1b7WVIkjRjffMlc/WYMZVUJuRZI418RTtY1B85WXPBr3Ge7Y0IlJ1WwdnbT5c3quz/03hD6R3vXE2BnqKMcWu+sLyksiE3jvhbb0L/x71YTKdQDBYBzMFK3Qa7Mpg+DHXMdxWNsf9l3KJZJRL+cj0wMsWWbPk5wDpRv2ywtgfQ/VohsdQO6u5pp135mJWGLGPjw==</SignatureValue>
+                        <KeyInfo>
+                                <X509Data>
+                                        <X509Certificate>MIIDGTCCAgGgAwIBAgIUNz6CYF8dC/8d5nuigY+pi85sfgowDQYJKoZIhvcNAQELBQAwHDEaMBgGA1UEAwwRZG91Ymxlb2N0b3B1cy5jb20wHhcNMjUwNDMwMTEwODAxWhcNMzUwNDI4MTEwODAxWjAcMRowGAYDVQQDDBFkb3VibGVvY3RvcHVzLmNvbTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAL4v5kVR1bcPxHRTI94bKZul60Bd9V2HUS5xqjbYsoBmLmCPstfC8vGt5pchgulw9wafdytkE+sFg8ne/fcJRAE2IEYun5NtPBp9CabLFz0YtMQFUlAZIAKnUKjije0zRoGyRRgxoPVAa8ppJqR1j0eo/2kFsGQlRcFdLbTvPi7S2P+2vC/GgMBb5myV2AUh/+b+m+q14VdaZY50CKp/3qX4d9fzXIbGRjoynciZJ9mLi3XfJul1gdcyEDIfZX/QodTjXsrK+ECjDcHc/3er39IGa+MLbhX8BwWc/yakTVoYoQd6Uj0bLzEXp7JRwtztjulZI8uxgYQ3k/TXxLLKhpMCAwEAAaNTMFEwHQYDVR0OBBYEFAkennA/lxhASHKv/4pyK1vfdnwBMB8GA1UdIwQYMBaAFAkennA/lxhASHKv/4pyK1vfdnwBMA8GA1UdEwEB/wQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAEyp6bgPe5fjrT46E5FNy6htk1qvhsuv1+hMGi21BL1CRKimqZ053/4wPK2p6WQCB5jr6bwe2oesMxp2AH9FIqIFII5dxYdpk3L2yW5z/hl+JuNMwe8jZwZuBz8P1mlMojBTZayDII4+SERYtkrdbuxTen09vdauh54HOxmqWB5DX4KhdBuDFYKXNiosaN02YRkd0/CVPsE5HCd+icSijI9YJU2gl0U1scfW7V03ByjJ1dzX2xaGV/Pw2uobv+XZ/cbIcwFrMpM73Gt7esZgjWe89VTLSPea7T2GvnbjJ5SsGduqL0gRgtj3/sgMSEk+QZe4fzopn21R2YGANjVxjA4=</X509Certificate>
+                                </X509Data>
+                        </KeyInfo>
+                </Signature>
+                <saml:Subject>
+                        <saml:NameID  Format="urn:oasis:names:tc:SAML:2.0:nameid-format:persistent">kurts@uberit.net</saml:NameID>
+                        <saml:SubjectConfirmation  Method="urn:oasis:names:tc:SAML:2.0:cm:bearer">
+                                <saml:SubjectConfirmationData  NotOnOrAfter="2026-02-27T17:38:10.246Z"
+                                                                                              Recipient="https://horizon.uberit.net/SAML/sso"
+                                                                                              InResponseTo="_e3a7faad911ed4ee6644574b622aebd4"
+                                                                                             />
+                        </saml:SubjectConfirmation>
+                </saml:Subject>
+                <saml:Conditions  NotBefore="2026-02-27T16:38:10.246Z"
+                                                    NotOnOrAfter="2026-02-27T17:38:10.246Z"
+                                                   >
+                        <saml:AudienceRestriction>
+                                <saml:Audience>https://elvhrzncs1.uberit.net/SAML/metadata/sp.xml</saml:Audience>
+                        </saml:AudienceRestriction>
+                </saml:Conditions>
+                <saml:AuthnStatement  AuthnInstant="2026-02-27T16:38:10.246Z"
+                                                            SessionIndex="66874143-ff49-420e-b52a-dc44b2203bf9"
+                                                           >
+                        <saml:AuthnContext>
+                                <saml:AuthnContextClassRef>urn:oasis:names:tc:SAML:2.0:ac:classes:unspecified</saml:AuthnContextClassRef>
+                        </saml:AuthnContext>
+                </saml:AuthnStatement>
+                <saml:AttributeStatement  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                                                                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                                                                   />
+        </saml:Assertion>
+</samlp:Response>

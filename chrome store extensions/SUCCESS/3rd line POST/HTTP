@@ -1,0 +1,34 @@
+General
+Request URL:	https://horizon.uberit.net/SAML/sso
+Request Method:	POST
+Status Code:	HTTP/1.1 200 OK
+
+Response Headers
+Content-Length:	1031
+Content-Type:	text/html;charset=ISO-8859-1
+Strict-Transport-Security:	max-age=31536000
+X-Permitted-Cross-Domain-Policies:	none
+X-Robots-Tag:	none
+Referrer-Policy:	strict-origin-when-cross-origin
+Access-Control-Allow-Origin:	https://login.sdo.uberit.net
+Access-Control-Allow-Credentials:	true
+Vary:	Origin
+Content-Security-Policy:	default-src 'none';img-src 'self';base-uri 'none';form-action 'self' https://login.sdo.uberit.net/saml/bc98eb7c-b578-469e-ba3e-b0126a1d7cfd/login;frame-ancestors 'none';script-src 'self' 'unsafe-inline';style-src 'self' 'unsafe-inline'
+X-Content-Type-Options:	nosniff
+
+Request Headers
+sec-ch-ua:	"Not:A-Brand";v="99", "Google Chrome";v="145", "Chromium";v="145"
+sec-ch-ua-mobile:	?0
+sec-ch-ua-platform:	"Windows"
+Origin:	https://login.sdo.uberit.net
+Content-Type:	application/x-www-form-urlencoded
+Upgrade-Insecure-Requests:	1
+User-Agent:	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
+Accept:	text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site:	same-site
+Sec-Fetch-Mode:	navigate
+Sec-Fetch-Dest:	document
+Referer:	https://login.sdo.uberit.net/
+Accept-Encoding:	gzip, deflate, br, zstd
+Accept-Language:	en-GB,en-US;q=0.9,en;q=0.8
+Cookie:	JSESSIONID=CCB361D2BC603180CE6E1021997AFFE0
